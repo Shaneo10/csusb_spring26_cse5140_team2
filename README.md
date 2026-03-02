@@ -1,6 +1,6 @@
 # CSE 5140 – Computational Intelligence
 
-🧠  ## Team 2 –  Computational Intelligence Project
+## 🧠 Team 2 –  Computational Intelligence Project
 
 ---
 
