@@ -1,43 +1,37 @@
-# CSE 5140 – Computational Intelligence  
-## Team 2 – Chicago Divvy Bike Sharing Prediction
+# CSE 5140 – Computational Intelligence
+
+## 🧠 Team 2 –  Computational Intelligence Project
+
+---
+
+# 🚀  Introduction
+
+---
 
 This repository contains the full implementation for the **CSE 5140 Semester Project** for Computational Intelligence.
 
-We design, implement, and rigorously compare the three core paradigms of Computational Intelligence:
+The team will design, implement, and rigorously compare the three core paradigms of Computational Intelligence:
 
-- **Neural Networks (NN)**
-- **Evolutionary Algorithms (EA)**
-- **Fuzzy Systems (FS)**
+- 🧠 **Neural Networks (NN)**
+- 🧬 **Evolutionary Algorithms (EA)**
+- 🌫️ **Fuzzy Systems (FS)**
 
-All experiments are executed on **NRP.ai (NRP JupyterHub – PyTorch2 stack)** as required by the project specification.
-
----
-
-# 📊 Dataset
-
-**Team 2 Dataset:**  
-Chicago Divvy Bike Sharing  
-
-**Target Variable:** `tripduration` (in minutes)
-
-Fairness Protocol:
-
-- Use **first 1,000,000 rows**
-- Equivalent feature set across teams
-- Train / Validation / Test split: **70 / 15 / 15**
-- Use normalized metrics (R², MAPE) for final comparison
+Neural Networks are computational models inspired by the human brain that learn patterns from data, Evolutionary Networks use principles of natural selection 
+and genetic adaptation to optimize solutions over time, and Fuzzy Systems apply approximate reasoning with degrees of truth rather than binary logic to 
+handle uncertainty and imprecision in complex problems.
 
 ---
+
 # 🧠 Phase Overview
 
-## Phase 1 – Neural Networks
+## Phase 1 – 🧠 Neural Networks
 
 - Baseline model (Linear Regression)
 - PyTorch Neural Network model
 - Feature importance (SHAP / permutation / weight analysis)
 - Metrics: RMSE, MAE, R²
 
-## Phase 2 – Evolutionary Algorithms
+## Phase 2 – 🧬 Evolutionary Algorithms
 
 - Genetic Algorithm for:
   - Hyperparameter tuning and/or
@@ -45,14 +39,14 @@ Fairness Protocol:
 - Fitness convergence visualization
 - Quantified performance improvement over Phase 1
 
-## Phase 3 – Fuzzy Systems
+## Phase 3 – 🌫️ Fuzzy Systems
 
 - Fuzzy Inference System (scikit-fuzzy)
 - Rule base documentation
 - Interpretability analysis
 - Performance comparison vs NN/EA
 
-## Final Phase – Integrated Comparison
+## Final Phase – 📋Integrated Comparison
 
 - Normalized metric comparison (R², MAPE)
 - Runtime comparison
@@ -61,9 +55,31 @@ Fairness Protocol:
 
 ---
 
+## Why Learn This?
+
+- 🧠 **Research Significance:** Learning these methods enables you to solve complex real-world problems by modeling patterns, uncertainty, and optimization challenges effectively.
+
+- 📋  **Educational Objective:** Understanding Neural Networks, Evolutionary Networks, and Fuzzy Systems strengthens your ability to design intelligent, adaptive, and data-driven systems.
+
+- 🤖 **Scientific Contribution:** Mastering these approaches provides a strong foundation for advanced research in artificial intelligence.
+
+## 🛠️ Prerequisites
+
+Ensure that you have the following up and running:
+
+ 👉  Install Git on your computer (https://git-scm.com/install/)
+
+ 👉  Ensure your system has a Pytorch environment (https://nrp.ai/)
+
+ 👉  Log in with your CSUSB assigned namespace to NRP (https://nrp.ai/)
+
+ 👉 Kindly use the collaborative workspace for team coordination and project communication
+  [Microsoft Teams](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fchannel%2F19%3APcy4cyPJTK7yoU4m6THQoroMXldOt--gay1tlHrjhMA1%40thread.tacv2%2FGeneral%3FgroupId%3Db384adc3-3c8f-4fb9-9394-19f9001b310f%26tenantId%3Dd73b9eaa-07c9-47c4-a6ce-f13bee0e8117&type=channel&deeplinkId=70561868-7fcf-4f82-ade4-492c032d76ba&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
+
+
 # 🚀 How to Run the Project (NRP Required)
 
-All final results must be executed on **NRP.ai using the NRP Stack PyTorch2 environment**.
+All experimental results are required to be executed within the **NRP.ai environment using the NRP Stack PyTorch2** configuration to ensure consistency and reproducibility.
 
 ---
 
@@ -89,7 +105,7 @@ cd csusb_spring26_cse5140_team2
 git pull
 ```
 
-## Step 2 – Clone or Pull Repository
+## Step 3 – Clone or Pull Repository
 ```bash
 cd csusb_spring26_cse5140_team2
 ```
